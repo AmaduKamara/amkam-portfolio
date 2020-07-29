@@ -15,9 +15,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
        
     </head>
-    <body class="bg-teal-500">
+    <body>
+
+        {{-- <router-view></router-view> --}}
         
-        <div id="app"></div>
+        <div id="app">
+            <app></app> 
+        </div>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

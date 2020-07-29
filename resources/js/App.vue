@@ -1,5 +1,12 @@
 <template>
-  <main>
-    <h3>Hello World</h3>
-  </main>
+    <main>
+        <router-view></router-view>
+    </main>
 </template>
+
+<script>
+
+export default {
+    name: "App",
+};
+</script>
