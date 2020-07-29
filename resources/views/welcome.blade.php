@@ -16,6 +16,8 @@
        
     </head>
     <body class="bg-teal-500">
-        <h1>Home</h1>
+        
+        <div id="app"></div>
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
