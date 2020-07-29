@@ -1,9 +1,6 @@
 <template>
   <div>
 
-    <!-- Navigation Bar -->
-    <NavBar />
-
     <!-- HERO SECTION -->
     <div class="relative heroSection h-screen">
       <div class="image">
@@ -214,13 +211,11 @@
 </template>
 
 <script>
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar"
+import Footer from "../components/Footer"
 
 export default {
   name: "Home",
   components: {
-    NavBar,
     Footer
   },
   data() {
